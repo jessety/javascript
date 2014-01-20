@@ -78,7 +78,7 @@ Omit the quotes in property names when creating an object
 ```js
 var guitar = {
 	type: 'martin'
-}
+};
 ```
 
 Instead of 
@@ -86,7 +86,7 @@ Instead of
 ```js
 var guitar = {
 	'type': 'martin'
-}
+};
 ```
 
 ## Braces
