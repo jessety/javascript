@@ -62,15 +62,15 @@ var message = "Test successful";
 Always use literal syntax for object / array creation. 
 
 ```js
-var object = {};
-var array = [];
+var object = {},
+    array = [];
 ```
 
 Instead of
 
 ```js
-var object = new Object();
-var array = new Array();
+var object = new Object(),
+    array = new Array();
 ```
 
 Omit the quotes in property names when creating an object
